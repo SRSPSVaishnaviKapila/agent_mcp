@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "auto-ppt-server": {
+      "command": "python",
+      "args": ["mcp_servers/ppt_server.py"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ANTHROPIC_API_KEY": "${env:ANTHROPIC_API_KEY}"
+      },
+      "transport": "stdio"
+    }
+  }
+}
